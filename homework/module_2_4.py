@@ -8,9 +8,9 @@ for num in numbers:
             if (num % i) == 0:
                 is_prime = False
                 break
-    if is_prime:
-        primes.append(num)
-    else:
+        if is_prime:
+            primes.append(num)
+        else:
             not_primes.append(num)
 print(primes)
 print(not_primes)
